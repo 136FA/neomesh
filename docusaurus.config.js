@@ -31,7 +31,7 @@ const config = {
   url: 'https://neome.sh',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/neomesh/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -136,10 +136,16 @@ const config = {
             position: 'left'
           },
           {
-            href: 'https://discord.gg/YOUR_DISCORD_INVITE',
+            href: 'https://discord.gg/hDCxm47JSF',
             position: 'right',
             className: 'header-icon discord',
             'aria-label': 'Discord server',
+          },
+          {
+            href: 'https://www.facebook.com/groups/1533160050958272',
+            position: 'right',
+            className: 'header-icon facebook',
+            'aria-label': 'Facebook Group',
           },
           {
             href: 'https://github.com/n2x4/neomesh',
