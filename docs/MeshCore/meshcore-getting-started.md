@@ -180,9 +180,9 @@ These are recommendations, not hard rules. They exist to keep the mesh understan
 
 Examples:
 
-- `BOS - North Station NE`  
-- `CMD - Central Sq - 001`  
-- `WAT - Arsenal`  
+- `CLE - Tower 1 NE`  
+- `SANDY Shores`  
+- `KENT 04 - W1`  
 
 Clear naming helps with troubleshooting, mapping coverage, and general sanity.
 
@@ -242,7 +242,7 @@ The most reliable way to verify that your node is fully participating in the mes
 
 [Mesh Analyzer](https://analyzer.letsmesh.net/channels)
 
-1. Select the `BOS` region
+1. Select the `CLE` region
 2. Select the channel you are using (Public, #test, etc.)
 
 You can view:
