@@ -10,14 +10,14 @@ The Meshtastic side of the NEO Mesh network uses a shared MQTT broker to sync te
 
 Our Meshtastic MQTT broker is:
 
-- **Hostname:** `mqttmt01.neome.sh`
+- **Hostname:** `mqtt.neomesh.org`
 - **Protocol:** MQTT (unencrypted on port 1883)
 - **Authentication:** Username/password required
 - **Bridged to maps:**  
   - [Liam Cottle’s Meshtastic Map](https://meshtastic.liamcottle.net/)  
   - [MeshMap.net](https://meshmap.net/)
 
-You only need to configure your radio to talk to **`mqttmt01.neome.sh`**. The broker will automatically uplink your position and telemetry to both maps.
+You only need to configure your radio to talk to **`mqtt.neomesh.org`**. The broker will automatically uplink your position and telemetry to both maps.
 
 :::info
 All *radio-level* security (encryption, channels, etc.) is still handled by Meshtastic. The MQTT broker simply carries already-encrypted Meshtastic packets between devices and the mapping backends.
@@ -27,7 +27,7 @@ All *radio-level* security (encryption, channels, etc.) is still handled by Mesh
 
 ## MQTT Broker Behavior
 
-The broker at `mqttmt01.neome.sh` is configured to:
+The broker at `mqtt.neomesh.org` is configured to:
 
 - Accept connections from Meshtastic nodes with valid credentials.
 - Uplink packets under the **`msh/US/MA`** root topic to:
@@ -139,7 +139,7 @@ If your node is not appearing on the map:
 1. **Verify MQTT Status on the Node**
    - Check that:
      - MQTT is **Enabled**
-     - Address is **`mqttmt01.neome.sh`**
+     - Address is **`mqtt.neomesh.org`**
      - Root Topic is **`msh/US/MA`**
      - Username/password are set correctly.
 
