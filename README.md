@@ -1,10 +1,10 @@
-<h1 align="center">Greater Boston Mesh</h1>
+<h1 align="center">Neo Mesh</h1>
 
 <p align="center">
-  <img src="./static/img/logo.png" alt="Greater Boston Mesh Logo" width="50%" />
+  <img src="./static/img/logo.png" alt="Neo Mesh Logo" width="50%" />
 </p>
 
-Greater Boston Mesh is a volunteer-led community building resilient, off-grid communications across the Greater Boston area.
+The North East Ohio Mesh is a volunteer-led community building resilient, off-grid communications across the region.
 
 We support and document practical mesh networking workflows, including:
 - **MeshCore**
@@ -12,17 +12,17 @@ We support and document practical mesh networking workflows, including:
 
 ## Website
 
-- Main site: https://bostonme.sh/
+- Main site: https://neome.sh/
 
 ## Documentation
 
-- Docs home: https://bostonme.sh/docs/Introduction
-- MeshCore docs: https://bostonme.sh/docs/MeshCore
-- Meshtastic docs: https://bostonme.sh/docs/Meshtastic
+- Docs home: https://neome.sh/docs/Introduction
+- MeshCore docs: https://neome.sh/docs/MeshCore
+- Meshtastic docs: https://neome.sh/docs/Meshtastic
 
 ## Contributing
 
-- Contributing docs: https://bostonme.sh/docs/contributing-docs
+- Contributing docs: https://neome.sh/docs/contributing-docs
 
 ## Run Locally
 
