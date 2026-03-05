@@ -25,7 +25,7 @@ Also add:
 
 - `us` (national scope)
 
-When deploying a repeater, add `us` at the same time you add the state region.
+When deploying a repeater, add `US` at the same time you add the state region.
 
 If you are unsure which region to use, ask in Discord or Public mesh chat before finalizing deployment.
 
@@ -60,28 +60,28 @@ These settings can be changed remotely over the mesh after a repeater is deploye
 5. Select `Manage Regions`.
 6. Click the add button at the top right.
    ![Manage Regions screen](./assets/region-1.png)
-7. Enter in `ma` and click the check mark at the top right. Repeat this to also add `newengland` and `us`.
+7. Enter in `oh` and click the check mark at the top right. Repeat this to also add `newengland` and `us`.
    ![Add region button](./assets/region-2.png)
-8. Click the 3 dots next to `ma` and select `Allow Flood`. Do the same for `newengland` and `us`.
+8. Click the 3 dots next to `oh` and select `Allow Flood`. Do the same for `newengland` and `us`.
    ![Enter ma region](./assets/region-3.png)
 9. Click the check box to confirm region settings.
    ![Confirm region settings](./assets/region-4.png)
 
 ## How to set allowed regions (CLI)
 
-Use this sequence on a repeater serial CLI to create/update and allow one region (`ma` shown here), then repeat the same steps for `us` and `newengland`.
+Use this sequence on a repeater serial CLI to create/update and allow one region (`oh` shown here), then repeat the same steps for `us` and `newengland`.
 
 ```
-region put ma *
+region put oh *
 ```
-Creates (or updates) the `ma` region under global scope.
+Creates (or updates) the `oh` region under global scope.
 
 ```
-region allowf ma
+region allowf oh
 ```
-Enables flood permission for `ma`.
+Enables flood permission for `oh`.
 
-Repeat the same two commands for each additional region you want to allow (for example: `us`, `newengland`).
+Repeat the same two commands for each additional region you want to allow (for example: `us`, `ohio`).
 
 ```
 region save
@@ -91,11 +91,11 @@ Saves region definitions and permissions to storage.
 Optional verification:
 
 ```
-region get ma
+region get oh
 ```
-Checks the `ma` region entry.
+Checks the `oh` region entry.
 
-Repeat verification for each added region (for example: `region get us`, `region get newengland`).
+Repeat verification for each added region (for example: `region get us`, `region get ohio`).
 
 ```
 region list allowed
