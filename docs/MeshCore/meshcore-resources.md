@@ -54,7 +54,7 @@ A real-time packet and reliability analysis tool for the MeshCore network. It he
 
 Our live map is the quickest way to see active nodes, recent activity, and overall mesh health in near real time. Created by a local resident [Yellowcooln](https://github.com/yellowcooln).
 
-- Live Map: https://live.neome.sh/
+- Live Map: Coming Soon!
 
 ---
 
@@ -65,7 +65,7 @@ Wardriving coverage mapping is now done with **MeshMapper**.
 For setup details and links, see:
 
 - Wardriving How-To: https://neome.sh/docs/MeshCore/meshcore-wardrive
-- MeshMapper Map: https://bos.meshmapper.net/
+- MeshMapper Map: Coming Soon
 - MeshMapper Wiki: https://wiki.meshmapper.net/
 
 ## More resources
