@@ -19,19 +19,13 @@ Using consistent state-based regions helps with:
 
 Use these region names for NEO Mesh deployments:
 
-- `ma` (Massachusetts)
-- `me` (Maine)
-- `ri` (Rhode Island)
-- `vt` (Vermont)
-- `nh` (New Hampshire)
-- `ct` (Connecticut)
+- `oh` Ohio
 
 Also add:
 
-- `newengland` (regional scope)
 - `us` (national scope)
 
-When deploying a repeater, add `newengland` and `us` at the same time you add the state region.
+When deploying a repeater, add `us` at the same time you add the state region.
 
 If you are unsure which region to use, ask in Discord or Public mesh chat before finalizing deployment.
 
@@ -46,10 +40,6 @@ A repeater will only forward that packet when:
 
 Important caveat: every repeater on the path must have the same region configured for forwarding to continue end-to-end.
 
-Example:
-
-- If someone in Cleveland sends with `oh` scope to Akron, all repeaters on that route need `ma`.
-- If they send with `ri` scope, all repeaters on that route need `ri`.
 
 ## Rollout note for flood permissions
 
