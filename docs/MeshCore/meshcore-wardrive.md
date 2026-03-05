@@ -8,9 +8,9 @@ sidebar_label: MeshCore Wardrive
 
 We now use **MeshMapper** for wardriving and coverage mapping.
 
-## Coverage Map (Boston)
+## Coverage Map (Northeast Ohio)
 
-Use the Boston MeshMapper map here:
+Use the NEO MeshMapper map here:
 
 - [https://bos.meshmapper.net/](https://bos.meshmapper.net/)
 

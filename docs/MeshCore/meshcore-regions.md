@@ -17,7 +17,7 @@ Using consistent state-based regions helps with:
 
 ## State region codes
 
-Use these region names for Greater Boston Mesh deployments:
+Use these region names for NEO Mesh deployments:
 
 - `ma` (Massachusetts)
 - `me` (Maine)
@@ -48,7 +48,7 @@ Important caveat: every repeater on the path must have the same region configure
 
 Example:
 
-- If someone in Boston sends with `ma` scope to Providence, all repeaters on that route need `ma`.
+- If someone in Cleveland sends with `oh` scope to Akron, all repeaters on that route need `ma`.
 - If they send with `ri` scope, all repeaters on that route need `ri`.
 
 ## Rollout note for flood permissions

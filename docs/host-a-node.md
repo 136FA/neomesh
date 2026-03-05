@@ -1,12 +1,12 @@
 ---
-title: Hosting a Greater Boston Mesh Node
+title: Hosting a NEO Mesh Node
 sidebar_position: 7
 description: Learn how to host a MeshCore or Meshtastic node and help expand resilient, community-powered communication across Massachusetts.
 ---
 
-# Hosting a Greater Boston Mesh Node
+# Hosting a NEO Mesh Node
 
-The **Greater Boston Mesh** is a volunteer-led community building a resilient, off-grid communication network across **Massachusetts and the surrounding region**. While we began in the Boston area, our network now spans cities, towns, schools, homes, and rural communities throughout the state.
+The **NEO Mesh** is a volunteer-led community building a resilient, off-grid communication network across **Northeast Ohio and the surrounding region**. Our network spans cities, towns, schools, homes, and rural communities throughout the region.
 
 Our mission is simple: **create a decentralized communication system that continues operating even when traditional infrastructure fails.** Hosting a node is one of the most impactful ways you can help your community.
 
@@ -31,7 +31,7 @@ Every new node strengthens the network’s reliability for the entire region.
 
 ## What you need to know
 
-Greater Boston Mesh supports two complementary technologies:
+NEO Mesh supports two complementary technologies:
 
 ### **MeshCore**
 - Forms the *long-range statewide backbone*
@@ -83,7 +83,7 @@ Hosting is very low effort:
 
 ## Next steps
 
-If you're interested in hosting a node, please reach out to the person who introduced you to Greater Boston Mesh and share the following information:
+If you're interested in hosting a node, please reach out to the person who introduced you to NEO Mesh and share the following information:
 
 - Your **name**
 - The **address or approximate location** where you can host a node

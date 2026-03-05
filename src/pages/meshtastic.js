@@ -105,7 +105,7 @@ export default function Home() {
                 <div className="channel-hash">
                   <code>LongFast</code>
                 </div>
-                <p className="channel-note">Greater Boston Mesh doesn’t use a custom Meshtastic channel. Just use the built-in “LongFast” preset in the app.</p>
+                <p className="channel-note">NEO Mesh doesn’t use a custom Meshtastic channel. Just use the built-in “LongFast” preset in the app.</p>
                 <p><strong>Discord Server:</strong></p>
                 <div className="channel-hash">
                   <a

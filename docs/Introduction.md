@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # Introduction
 
-Welcome to **Greater Boston Mesh** — a volunteer-led community building a resilient, off-grid communication network across **Massachusetts and the surrounding region**. While our name originated in the Boston area, our network now spans cities, towns, and rural areas across the entire state.
+Welcome to **NEO Mesh** — a volunteer-led community building a resilient, off-grid communication network across **Northeast Ohio and the surrounding region**. Our network spans cities, towns, and rural areas across the entire region.
 
 Our mission is to create a decentralized communication system that continues to operate even when traditional infrastructure fails.
 
@@ -15,7 +15,7 @@ Our mission is to create a decentralized communication system that continues to 
 
 Modern communication depends on centralized systems — cell towers, internet service providers, and cloud infrastructure. When these systems go down, communication often disappears with them.
 
-Greater Boston Mesh provides an alternative through **community-owned mesh networks** powered by low-power radio and open-source technologies. These systems are:
+NEO Mesh provides an alternative through **community-owned mesh networks** powered by low-power radio and open-source technologies. These systems are:
 
 - **Decentralized** — no single point of failure  
 - **Resilient** — functional during outages  
@@ -26,7 +26,7 @@ Greater Boston Mesh provides an alternative through **community-owned mesh netwo
 
 ## What We Build
 
-Greater Boston Mesh supports two mesh networks across Massachusetts: **Meshtastic** and **Meshcore**. Both are useful, but each has distinct strengths.
+NEO Mesh supports two mesh networks across Massachusetts: **Meshtastic** and **Meshcore**. Both are useful, but each has distinct strengths.
 
 ### Meshtastic
 
@@ -93,7 +93,7 @@ We believe in a future where:
 - Community-driven networks improve communication resilience  
 - Mesh networking complements traditional infrastructure  
 - Knowledge and hardware are openly shared  
-- Technology empowers local communities across the state  
+- Technology empowers local communities across the region  
 
 ---
 

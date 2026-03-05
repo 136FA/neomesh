@@ -6,7 +6,7 @@ sidebar_label: MeshCore Resources
 
 # MeshCore Resources
 
-Here are the main links we reference most often across **Greater Boston Mesh** for MeshCore.
+Here are the main links we reference most often across **NEO Mesh** for MeshCore.
 
 ## MeshCore Resources
 
@@ -28,7 +28,7 @@ This is where you’ll find the **officialMeshCore firmware** and the easiest wa
 
 ### Easy SkyMesh Custom Firmware
 
-In Boston, many of us are running IoTThinks’ custom MeshCore firmware (Easy SkyMesh), which helps improve power savings on repeaters.
+In the NEO region, many of us are running IoTThinks’ custom MeshCore firmware (Easy SkyMesh), which helps improve power savings on repeaters.
 
 - IoTThinks Repo: https://github.com/IoTThinks/EasySkyMesh
 
@@ -50,11 +50,11 @@ A real-time packet and reliability analysis tool for the MeshCore network. It he
 
 ---
 
-## Live Map (Greater Boston Mesh)
+## Live Map (NEO Mesh)
 
 Our live map is the quickest way to see active nodes, recent activity, and overall mesh health in near real time. Created by a local resident [Yellowcooln](https://github.com/yellowcooln).
 
-- Live Map: https://live.bostonme.sh/
+- Live Map: https://live.neome.sh/
 
 ---
 
@@ -64,7 +64,7 @@ Wardriving coverage mapping is now done with **MeshMapper**.
 
 For setup details and links, see:
 
-- Wardriving How-To: https://bostonme.sh/docs/MeshCore/meshcore-wardrive
+- Wardriving How-To: https://neome.sh/docs/MeshCore/meshcore-wardrive
 - MeshMapper Map: https://bos.meshmapper.net/
 - MeshMapper Wiki: https://wiki.meshmapper.net/
 

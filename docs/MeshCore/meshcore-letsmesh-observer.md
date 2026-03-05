@@ -16,9 +16,9 @@ LetsMesh is a packet analyzer and observer network for MeshCore. It collects pac
 
 An observer is an MQTT-connected MeshCore node that reports packets it hears to LetsMesh. Observers can be repeater, room server, or companion setups depending on your node type.
 
-## Boston Observer Status
+## NEO Observer Status
 
-You can view active observers for Greater Boston here:
+You can view active observers for NEO here:
 
 - https://analyzer.letsmesh.net/status/observers?region=BOS
 
@@ -28,17 +28,17 @@ To set up your own observer, follow the LetsMesh onboarding instructions:
 
 - https://analyzer.letsmesh.net/observer/onboard
 
-## Also Upload to Boston MQTT
+## Also Upload to NEO MQTT
 
-If you are already uploading to LetsMesh, you might as well also upload to the Greater Boston Mesh MQTT server to help improve local visibility and our live map.
+If you are already uploading to LetsMesh, you might as well also upload to the NEO Mesh MQTT server to help improve local visibility and our live map.
 
-When your setup asks about additional/custom brokers, choose **yes** and add Boston MQTT.
+When your setup asks about additional/custom brokers, choose **yes** and add NEO MQTT.
 
-- Boston MQTT setup doc: https://bostonme.sh/docs/MeshCore/meshcore-mqtt
-You can view the local [Live Map](https://live.bostonme.sh/) once your uploads are flowing.
+- NEO MQTT setup doc: https://neome.sh/docs/MeshCore/meshcore-mqtt
+You can view the local [Live Map](https://live.neome.sh/) once your uploads are flowing.
 
 ## MeshMapper + Wardriving
 
-MeshMapper for Boston runs off LetsMesh observer data. For MeshMapper links and wardriving details, see:
+MeshMapper for NEO runs off LetsMesh observer data. For MeshMapper links and wardriving details, see:
 
-- https://bostonme.sh/docs/MeshCore/meshcore-wardrive
+- https://neome.sh/docs/MeshCore/meshcore-wardrive

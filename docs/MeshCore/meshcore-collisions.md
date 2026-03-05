@@ -39,7 +39,7 @@ set prv.key <PRIVATE_KEY_HERE>
 You can check prefixes a couple different ways:
 
 ### Option A: MeshCore Analyzer
-Browse the repeater list for the region `BOS - Boston, US` and look at the prefixes already in use:  
+Browse the repeater list for the region `NEO - Northeast Ohio, US` and look at the prefixes already in use:  
 https://analyzer.letsmesh.net/nodes/repeaters
 
 ### Option B: Discord bot

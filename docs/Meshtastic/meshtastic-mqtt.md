@@ -6,18 +6,18 @@ sidebar_label: Meshtastic MQTT
 
 # Meshtastic MQTT Server
 
-The Meshtastic side of the Boston Mesh network uses a shared MQTT broker to sync telemetry and messages between local radios and the public Meshtastic map services.
+The Meshtastic side of the NEO Mesh network uses a shared MQTT broker to sync telemetry and messages between local radios and the public Meshtastic map services.
 
 Our Meshtastic MQTT broker is:
 
-- **Hostname:** `mqttmt01.bostonme.sh`
+- **Hostname:** `mqttmt01.neome.sh`
 - **Protocol:** MQTT (unencrypted on port 1883)
 - **Authentication:** Username/password required
 - **Bridged to maps:**  
   - [Liam Cottle’s Meshtastic Map](https://meshtastic.liamcottle.net/)  
   - [MeshMap.net](https://meshmap.net/)
 
-You only need to configure your radio to talk to **`mqttmt01.bostonme.sh`**. The broker will automatically uplink your position and telemetry to both maps.
+You only need to configure your radio to talk to **`mqttmt01.neome.sh`**. The broker will automatically uplink your position and telemetry to both maps.
 
 :::info
 All *radio-level* security (encryption, channels, etc.) is still handled by Meshtastic. The MQTT broker simply carries already-encrypted Meshtastic packets between devices and the mapping backends.
@@ -27,7 +27,7 @@ All *radio-level* security (encryption, channels, etc.) is still handled by Mesh
 
 ## MQTT Broker Behavior
 
-The broker at `mqttmt01.bostonme.sh` is configured to:
+The broker at `mqttmt01.neome.sh` is configured to:
 
 - Accept connections from Meshtastic nodes with valid credentials.
 - Uplink packets under the **`msh/US/MA`** root topic to:
@@ -60,8 +60,8 @@ Under **MQTT**:
 - **MQTT > Root Topic:** `msh/US/MA`  
   This ensures your node publishes into the **Massachusetts** topic tree that our broker expects.
 
-- **MQTT > Address:** `mqttmt01.bostonme.sh`  
-  This is the hostname of the Boston Mesh Meshtastic MQTT broker.
+- **MQTT > Address:** `mqttmt01.neome.sh`  
+  This is the hostname of the NEO Mesh Meshtastic MQTT broker.
 
 - **MQTT > Username:** `meshdev`  
 - **MQTT > Password:** `large4cats`  
@@ -121,14 +121,14 @@ With this turned on, your node will contribute to the shared view of the mesh on
 
 With the settings above:
 
-- Your node connects to `mqttmt01.bostonme.sh` using **MQTT + credentials**.
+- Your node connects to `mqttmt01.neome.sh` using **MQTT + credentials**.
 - The broker forwards (uplinks) your Meshtastic packets to:
   - [https://meshtastic.liamcottle.net/](https://meshtastic.liamcottle.net/)
   - [https://meshmap.net/](https://meshmap.net/)
 - Your device’s position and telemetry appear on those maps under the **Massachusetts** region/topic.
 - RF traffic stays local on LoRa, but is mirrored to the internet for visualization and analysis.
 
-You don’t need to configure any external MQTT addresses on your node—just the **Boston Mesh MQTT broker** details listed here.
+You don’t need to configure any external MQTT addresses on your node—just the **NEO Mesh MQTT broker** details listed here.
 
 ---
 
@@ -139,7 +139,7 @@ If your node is not appearing on the map:
 1. **Verify MQTT Status on the Node**
    - Check that:
      - MQTT is **Enabled**
-     - Address is **`mqttmt01.bostonme.sh`**
+     - Address is **`mqttmt01.neome.sh`**
      - Root Topic is **`msh/US/MA`**
      - Username/password are set correctly.
 
@@ -147,9 +147,9 @@ If your node is not appearing on the map:
    - If your approximate radius is very large, your pin may look very “blurred” or generalized.
 
 3. **Confirm Channel Matching**
-   - Ensure your node is using the correct **Primary Channel** matching the rest of the Boston Mesh Meshtastic setup.
+   - Ensure your node is using the correct **Primary Channel** matching the rest of the NEO Mesh Meshtastic setup.
 
 4. **Try a Reboot**
    - Power-cycle the node or restart from the UI after changing MQTT settings.
 
-If the problem persists, reach out to the Boston Mesh maintainers with your node’s **ID** and **approximate location** so we can check the MQTT broker logs and map uplink status.
+If the problem persists, reach out to the NEO Mesh maintainers with your node’s **ID** and **approximate location** so we can check the MQTT broker logs and map uplink status.

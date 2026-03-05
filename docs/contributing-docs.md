@@ -1,6 +1,6 @@
 # Contributing Documentation
 
-This page explains how to add or edit docs for the Greater Boston Mesh site, how to open a PR to the main repo, and the style rules we follow.
+This page explains how to add or edit docs for the NEO Mesh site, how to open a PR to the main repo, and the style rules we follow.
 
 ---
 
@@ -19,9 +19,9 @@ Order tips:
 
 ---
 
-## PR Workflow (Boston Mesh Repo)
+## PR Workflow (NEO Mesh Repo)
 
-We use the main Boston Mesh repo for all changes: `https://github.com/bostonmesh/bostonmesh`.
+We use the main NEO Mesh repo for all changes: `https://github.com/n2x4/neomesh`.
 
 Create your own fork, make changes there, and open a pull request from your fork back to `bostonmesh/bostonmesh`.
 
@@ -69,7 +69,7 @@ Lists:
 Links and images:
 
 ```md
-[Boston Mesh site](https://example.com)
+[NEO Mesh site](https://example.com)
 ![Descriptive alt text](./assets/your-image.png)
 ```
 

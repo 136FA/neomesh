@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Boston Mesh',
-  tagline: '',
+  title: 'NEO Mesh',
+  tagline: 'Resilient, off-grid community communications across Northeast Ohio',
   favicon: 'img/favicon.ico',
   headTags: [
     {
@@ -28,15 +28,15 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://bostonme.sh/',
+  url: 'https://neome.sh',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'bostonmesh', // Usually your GitHub org/user name.
-  projectName: 'bostonmesh', // Usually your repo name.
+  organizationName: 'n2x4', // Usually your GitHub org/user name.
+  projectName: 'neomesh', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -75,7 +75,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/bostonmesh/bostonmesh/tree/main/',
+            'https://github.com/n2x4/neomesh/tree/main/',
         },
         // blog: {
         //   showReadingTime: true,
@@ -113,9 +113,9 @@ const config = {
         disableSwitch: false
       },
       navbar: {
-        title: 'Greater Boston Mesh',
+        title: 'NEO Mesh',
         logo: {
-          alt: 'Greater Boston Mesh Logo',
+          alt: 'NEO Mesh Logo',
           src: 'img/logo.png',
         },
         items: [
@@ -136,13 +136,13 @@ const config = {
             position: 'left'
           },
           {
-            href: 'https://discord.gg/MUVASVEEES',
+            href: 'https://discord.gg/YOUR_DISCORD_INVITE',
             position: 'right',
             className: 'header-icon discord',
             'aria-label': 'Discord server',
           },
           {
-            href: 'https://github.com/bostonmesh',
+            href: 'https://github.com/n2x4/neomesh',
             position: 'right',
             className: 'header-icon github',
             'aria-label': 'GitHub repository',
@@ -157,16 +157,16 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://discord.gg/MUVASVEEES',
+                href: 'https://discord.gg/YOUR_DISCORD_INVITE',
               },
               {
                 label: 'Github',
-                href: 'https://github.com/bostonmesh/bostonmesh',
+                href: 'https://github.com/n2x4/neomesh',
               },
             ],
           },
         ],
-        copyright: `© ${new Date().getFullYear()} Greater Boston Mesh Network. Built with ❤️ for resilient communications.`,
+        copyright: `© ${new Date().getFullYear()} Northeast Ohio Mesh Network. Built with ❤️ for resilient communications.`,
       },
       prism: {
         theme: prismThemes.github,

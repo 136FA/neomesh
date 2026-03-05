@@ -5,13 +5,13 @@ sidebar_label: MeshCore Getting Started
 ---
 
 # MeshCore Getting Started  
-*Greater Boston Mesh*
+*NEO Mesh*
 
-MeshCore is the software used by Greater Boston Mesh to build a decentralized, [long-range wireless (LoRa)](https://www.semtech.com/lora/what-is-lora) messaging network using LoRa radios. Nodes communicate directly with each other, forming a mesh that does not rely on the internet or cellular service. 
+MeshCore is the software used by NEO Mesh to build a decentralized, [long-range wireless (LoRa)](https://www.semtech.com/lora/what-is-lora) messaging network using LoRa radios. Nodes communicate directly with each other, forming a mesh that does not rely on the internet or cellular service. 
 
 This page is intended to help you get oriented, understand your options, and figure out what to do next — without requiring deep radio or networking knowledge.
 
-If you are interested in hosting infrastructure for the network without getting deeply involved, you may also want to read [Host a Node](https://bostonme.sh/docs/host-a-node).
+If you are interested in hosting infrastructure for the network without getting deeply involved, you may also want to read [Host a Node](https://neome.sh/docs/host-a-node).
 
 If you are want to learn more about MeshCore in general please visit [MeshCore.co.uk](https://meshcore.co.uk/about.html).
 
@@ -36,7 +36,7 @@ This is the easiest place to begin.
 You can purchase hardware made specifically for MeshCore, or flash MeshCore onto many compatible LoRa devices.
 
 If you want examples of hardware that people in the community are already using successfully, see  
-[Node Builds](https://bostonme.sh/docs/Node-Builds).
+[Node Builds](https://neome.sh/docs/Node-Builds).
 
 ---
 
@@ -48,7 +48,7 @@ Good fit if you:
 - Have stable power (UPS backup, solar with batteries, etc.)
 - Can place hardware reasonably high
 
-If you want to host a repeater without getting involved in the community, please read [Host a Node](https://bostonme.sh/docs/host-a-node) for help, otherwise continue reading below.
+If you want to host a repeater without getting involved in the community, please read [Host a Node](https://neome.sh/docs/host-a-node) for help, otherwise continue reading below.
 
 ---
 
@@ -99,7 +99,7 @@ At a minimum:
 - A computer with a modern browser (Chrome or Edge recommended)  
 - About 10–20 minutes  
 
-You can purchase hardware made specifically for MeshCore, or flash MeshCore onto many compatible LoRa devices. [Heltec v4](https://heltec.org/project/wifi-lora-32-v4/) boards are our current recommendation. If you’re looking for other known-good hardware options, see [Node Builds](https://bostonme.sh/docs/Node-Builds), which links to several proven MeshCore builds used by the community.
+You can purchase hardware made specifically for MeshCore, or flash MeshCore onto many compatible LoRa devices. [Heltec v4](https://heltec.org/project/wifi-lora-32-v4/) boards are our current recommendation. If you’re looking for other known-good hardware options, see [Node Builds](https://neome.sh/docs/Node-Builds), which links to several proven MeshCore builds used by the community.
 
 ---
 
@@ -142,11 +142,11 @@ For full firmware documentation and release notes, see: [MeshCore GitHub Reposit
 
 ---
 
-## Greater Boston Mesh conventions and guidance
+## NEO Mesh conventions and guidance
 
 ### Use the USA/Canada preset
 
-Please use the [USA/Canada preset](https://bostonme.sh/meshcore#contact).
+Please use the [USA/Canada preset](https://neome.sh/meshcore#contact).
 
 Recommended values:
 
@@ -156,7 +156,7 @@ Recommended values:
 - Spreading Factor: `7`
 - Coding Rate: `5`
 
-If you change the frequency, bandwidth, or spreading factor, your node will not be able to communicate with the Greater Boston Mesh.
+If you change the frequency, bandwidth, or spreading factor, your node will not be able to communicate with the NEO Mesh.
 
 If your node cannot see or reach anyone, double-check that you are using the USA/Canada preset.
 
@@ -198,7 +198,7 @@ Collisions are still uncommon, but as more repeaters come online, avoiding prefi
 
 Repeater hosts should read:
 
-[MeshCore key prefix collisions](https://bostonme.sh/docs/MeshCore/meshcore-collisions)
+[MeshCore key prefix collisions](https://neome.sh/docs/MeshCore/meshcore-collisions)
 
 If you’re unsure, ask in Discord before changing anything.
 
@@ -208,10 +208,10 @@ If you’re unsure, ask in Discord before changing anything.
 
 Depending on your interest level:
 
-- Join the Greater Boston Mesh Discord and say hello
+- Join the NEO Mesh Discord and say hello
 - Share your node name and general location
 - Ask questions — especially before deploying a repeater
-- Read [Host a Node](https://bostonme.sh/docs/host-a-node) if you want to contribute infrastructure
+- Read [Host a Node](https://neome.sh/docs/host-a-node) if you want to contribute infrastructure
 
 MeshCore works best when people coordinate, even loosely.
 
